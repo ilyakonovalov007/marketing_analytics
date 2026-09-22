@@ -21,3 +21,17 @@
 рекламное размещение → tracking-ссылка → Telegram-пользователь → заявка → покупка → выручка / ROMI
 
 <img width="1280" height="720" alt="tgbot" src="https://github.com/user-attachments/assets/a6ca3b92-e435-46f4-b890-4078f77b40bf" />
+
+## Что реализовано
+
+- создание tracking-ссылок для рекламных размещений;
+- определение источника перехода пользователя;
+- сбор заявок через Telegram-бота;
+- сохранение данных в SQLite;
+- расчёт маркетинговых метрик, включая ROMI.
+
+## Стек
+
+**Backend:** Python, aiogram  
+**Database:** SQLite  
+**Analytics:** SQL, pandas, Jupyter

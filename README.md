@@ -63,15 +63,15 @@
 
 Клонировать репозиторий и установить зависимости:
 
-git clone https://github.com/ilyakonovalov007/marketing_analytics.git
-cd marketing_analytics
-pip install -r requirements.txt
+- git clone https://github.com/ilyakonovalov007/marketing_analytics.git
+- cd marketing_analytics
+- pip install -r requirements.txt
 
 Создать файл .env в корневой директории проекта:
 
 BOT_TOKEN=your_telegram_bot_token
 
-Запустить Telegram-бота:
+Запустить Telegram-бота (BotFather):
 
 python bot.py
 
